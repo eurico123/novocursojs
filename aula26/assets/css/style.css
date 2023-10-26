@@ -28,6 +28,14 @@ body{
     border-radius: 15px;
 }
 
+.portador div{
+    width: 400px;
+}
+
+.portador {
+    display: flex;
+}
+
 form input, form label, form button {
     display: block;
     width: 100%;
