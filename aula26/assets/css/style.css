@@ -36,6 +36,16 @@ body{
     display: flex;
 }
 
+.p-res {
+    background-color: aquamarine;
+    padding: 10px 20px;
+}
+
+.p-bad {
+    background-color: rgb(226, 72, 72);
+    padding: 10px 20px;
+}
+
 form input, form label, form button {
     display: block;
     width: 100%;

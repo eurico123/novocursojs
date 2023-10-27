@@ -33,18 +33,20 @@
             </div>
         </div>
 
-        <form action="">
+        <form action="" id="form">
 
             <h1>Calcule seu IMC</h1>
 
             <label for="ipeso">Peso: </label>
-            <input type="number" id="ipeso" step="0.1">
+            <input type="text" id="ipeso">
 
             <label for="ialtura">Altura: </label>
-            <input type="number" id="ialtura" step="0.1">
+            <input type="text" id="ialtura">
 
-            <button onclick="calcular()">Calcular</button>
+            <button type="submit">Calcular</button>
         </form>
+
+        <div id="res"></div>
     </section>
 
     <script src="./assets/js/script.js"></script>
