@@ -1,3 +1,5 @@
+// Operação Ternária
+
 const usuarioPont = 1000;
 
 const nivelUsuario = usuarioPont >= 1000 ? 'Usuário VIP' : 'Usuário normal'
