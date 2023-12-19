@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --cor-primaria: rgb(16, 112, 129);
+    --cor-primaria-xambas: rgb(91, 168, 142);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    background-color: var(--cor-primaria);
+}
+
+.container {
+    margin: 50px auto;
+    width: 640px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    padding: 0 15px;
+    height: 50px;
+    font-size: 24px;
+}
+
+form input:focus {
+    outline: 1px solid var(--cor-primaria);
+}
+
+form button {
+    background-color: var(--cor-primaria);
+    border: none;
+    color: #fff;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background-color: var(--cor-primaria-xambas);
+    cursor: pointer;
+}
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: #dfdfdf;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #bbbbbb;
+}
